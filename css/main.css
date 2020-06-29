@@ -1,0 +1,115 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Arima Madurai', cursive;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: left;
+    padding-top: 60px;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav {
+    padding: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding-left: 80px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #8a8581;
+}
+
+
+#header {
+    text-align: left;
+    background-image: url(../img/lum3n--unsplash.jpg);
+    background-size: cover;
+    height: 1000px;
+    padding-top: 0px;
+}
+
+#about {
+    text-align: center;
+}
+
+#portfolio {
+    text-align: center;
+    height: 500px;
+}
+
+#contact {
+    text-align: left;
+}
+
+.tagline {
+    font-size: 24px;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 15px;
+    padding: 0 80px 0 80px;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.third-width ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 16px;
+}
+
+a:link {
+  color: #808080;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ff0066;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff66a3;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #99003d;
+  background-color: transparent;
+  text-decoration: underline;
+}
